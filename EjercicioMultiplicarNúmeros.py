@@ -9,7 +9,7 @@ def mult(u,v):
         x = u % 10**s
         y = v // 10**s
         z = v % 10**s
-        return mult(w, y) * 10*(2*s) + (mult(w, z) + mult(x, y)) * 10*s + mult(x, z)
+        return mult(w, y) * 10**(2*s) + (mult(w, z) + mult(x, y)) * 10**s + mult(x, z)
 
 
 num1 = 1234
